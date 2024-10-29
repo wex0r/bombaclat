@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #A50044;
+    color: #FFD700;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #FFD700;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: cornflowerblue;
+    height: 700px;
+    text-align: center;
+}
+
+.player-gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.player {
+    margin: 10px;
+    text-align: center;
+}
+
+.player img {
+    width: 100px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.stadium {
+    width: 50%;
+    height: 400px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #A50044;
+    color: #FFD700;
+    padding: 10px;
+    text-align: center;
+    clear: both;
+}
